@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Proxima Nova', Avenir Next, sans-serif;
+  font-family: 'Times New Roman', Arial, sans-serif;
   color: #1a1a1a;
   background: #fff7e1;
 }
@@ -111,7 +111,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  max-height: 700px;
+  max-height: 750px;
 }
 
 @media (max-width: 900px) {
