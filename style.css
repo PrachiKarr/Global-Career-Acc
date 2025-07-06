@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  color: #1a1a1a;
+  background: #fff7e1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #003366;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.donate-btn {
+  background: #ffc907;
+  color: #1a1a1a;
+  padding: 10px 22px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  transition: background 0.2s;
+}
+
+.donate-btn:hover {
+  background: #ffd84d;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 70vh;
+}
+
+.left-col {
+  background: #fff7e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.left-col h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.left-col p {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  max-width: 400px;
+}
+
+.main-donate-btn {
+  background: #ffc907;
+  color: #1a1a1a;
+  padding: 16px 40px;
+  border-radius: 28px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.main-donate-btn:hover {
+  background: #ffd84d;
+}
+
+.small-text {
+  color: #003366;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.right-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 450px;
+  border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+  .right-col, .left-col {
+    padding: 32px 12px;
+  }
+  .main-image {
+    max-height: 300px;
+  }
+}
