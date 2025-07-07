@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  height: 33.5px;
+  height: 33px;
 }
 
 .nav-right {
@@ -28,8 +28,15 @@ body {
 .nav-link {
   color: #003366;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 8px;
+  padding: 8px 12px;
+}
+.nav-link:hover {
+  background: #eae9e9;
+  color:#003366;
+  padding: 8px 12px;
+  border-radius: 8px;
 }
 
 .donate-btn {
@@ -38,7 +45,7 @@ body {
   padding: 10px 22px;
   border-radius: 24px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   border: none;
   transition: background 0.2s;
@@ -61,20 +68,24 @@ body {
   align-items: center;
   padding: 48px 24px;
   text-align: center;
+  border-top: #1a1a1a 0.5px solid;
 }
 
 .left-col h1 {
   font-size: 4rem;
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 10px;
   font-weight: normal;
+  letter-spacing: 0.2px;
   color: #1a1a1a;
   max-width: 480px;
 }
 
 .left-col p {
   font-size: 1.3rem;
-  margin-bottom: 100px;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  margin-bottom: 90px;
   max-width: 450px;
   color:#003366;
 }
@@ -85,9 +96,9 @@ body {
   padding: 16px 40px;
   border-radius: 28px;
   text-decoration: none;
-  font-size: 1.4rem;
-  font-weight: bold;
-  letter-spacing: 0.2px;
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 0.25px;
   margin-bottom: 12px;
   display: inline-block;
   transition: background 0.2s;
@@ -95,11 +106,12 @@ body {
 
 .main-donate-btn:hover {
   background: #ffd84d;
+  transform: scale(1.05);
 }
 
 .small-text {
   color: #003366;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 5px;
 }
 
